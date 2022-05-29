@@ -1,5 +1,6 @@
-import { SidebarItem } from '@/portainer/Sidebar/SidebarItem';
 import { EnvironmentId } from '@/portainer/environments/types';
+
+import { SidebarItem } from '../SidebarItem';
 
 interface Props {
   environmentId: EnvironmentId;

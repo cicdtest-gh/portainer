@@ -1,9 +1,9 @@
-import { AzureSidebar } from '@/portainer/Sidebar/AzureSidebar';
-import { DockerSidebar } from '@/portainer/Sidebar/DockerSidebar';
-import { KubernetesSidebar } from '@/portainer/Sidebar/KubernetesSidebar';
 import { Environment, PlatformType } from '@/portainer/environments/types';
 import { getPlatformType } from '@/portainer/environments/utils';
 
+import { AzureSidebar } from './AzureSidebar';
+import { DockerSidebar } from './DockerSidebar';
+import { KubernetesSidebar } from './KubernetesSidebar';
 import { SidebarSection } from './SidebarSection';
 import styles from './EnvironmentSidebar.module.css';
 

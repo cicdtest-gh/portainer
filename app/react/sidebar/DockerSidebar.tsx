@@ -1,4 +1,3 @@
-import { SidebarItem } from '@/portainer/Sidebar/SidebarItem';
 import {
   type Environment,
   type EnvironmentId,
@@ -10,6 +9,8 @@ import {
   isEnvironmentAdmin,
 } from '@/portainer/hooks/useUser';
 import { useInfo, useVersion } from '@/docker/services/system.service';
+
+import { SidebarItem } from './SidebarItem';
 
 interface Props {
   environmentId: EnvironmentId;

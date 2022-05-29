@@ -2,8 +2,7 @@ import { useQuery } from 'react-query';
 import clsx from 'clsx';
 
 import smallLogo from '@/assets/images/logo_small.png';
-
-import { getStatus } from '../services/api/status.service';
+import { getStatus } from '@/portainer/services/api/status.service';
 
 import { UpdateNotification } from './UpdateNotifications';
 import styles from './Footer.module.css';

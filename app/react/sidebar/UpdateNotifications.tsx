@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 
-import { getVersionStatus } from '../services/api/status.service';
+import { getVersionStatus } from '@/portainer/services/api/status.service';
 
 import styles from './UpdateNotifications.module.css';
 

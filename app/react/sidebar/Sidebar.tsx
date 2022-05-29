@@ -1,4 +1,3 @@
-import { r2a } from '@/react-tools/react2angular';
 import { Environment } from '@/portainer/environments/types';
 import { useUser } from '@/portainer/hooks/useUser';
 import { useIsTeamLeader } from '@/portainer/users/queries';
@@ -55,5 +54,3 @@ export function Sidebar({ environment }: Props) {
     </SidebarProvider>
   );
 }
-
-export const SidebarAngular = r2a(Sidebar, ['environment']);

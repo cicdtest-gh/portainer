@@ -1,6 +1,7 @@
-import { SidebarItem } from '@/portainer/Sidebar/SidebarItem';
 import { EnvironmentId } from '@/portainer/environments/types';
 import { Authorized } from '@/portainer/hooks/useUser';
+
+import { SidebarItem } from '../SidebarItem';
 
 import { KubectlShellButton } from './KubectlShell';
 
